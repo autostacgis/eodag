@@ -10,6 +10,3 @@ parameters and their characteristics.
 .. autopydantic_model:: CommonQueryables
 
 .. autopydantic_model:: Queryables
-
-.. autoclass:: QueryablesDict
-   :members: get_model, get_model_json_schema

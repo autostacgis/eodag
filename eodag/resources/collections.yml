@@ -8682,24 +8682,29 @@ MO_MULTIOBS_GLO_BIO_BGC_3D_REP_015_010:
   title: Global Ocean 3D Chlorophyll-a concentration, Particulate Backscattering coefficient and Particulate Organic Carbon
   extent: {"spatial": {"bbox": [[-180.0, -90.0, 180.0, 90.0]]}, "temporal": {"interval": [["1998-01-07T00:00:00Z", "2021-12-29T00:00:00Z"]]}}
 
-MO_MULTIOBS_GLO_BGC_CARBON_SURFACE_MYNRT_015_008:
+MO_MULTIOBS_GLO_BIO_CARBON_SURFACE_MYNRT_015_008:
   description: |
-    This product corresponds to a L4 time series of monthly global reconstructed surface ocean pCO2, air-sea fluxes of CO2, pH,
-    total alkalinity, dissolved inorganic carbon, saturation state with respect to calcite and aragonite, and associated uncertainties on
-    a 0.25° x 0.25° regular grid. The product is obtained from an ensemble-based forward feed neural network approach mapping situ data
-    for surface ocean fugacity (SOCAT data base, Bakker et al. 2016, https://www.socat.info/) and sea surface salinity, temperature,
-    sea surface height, chlorophyll a, mixed layer depth and atmospheric CO2 mole fraction. Sea-air flux fields are computed from the
-    air-sea gradient of pCO2 and the dependence on wind speed of Wanninkhof (2014). Surface ocean pH on total scale, dissolved inorganic carbon,
-    and saturation states are then computed from surface ocean pCO2 and reconstructed surface ocean alkalinity using the CO2sys speciation software.
+    This product corresponds to a REP L4 time series of monthly global reconstructed surface ocean pCO2, air-sea fluxes of CO2,
+    pH, total alkalinity, dissolved inorganic carbon, saturation state with respect to calcite and aragonite, and associated
+    uncertainties on a 0.25° x 0.25° regular grid. The product is obtained from an ensemble-based forward feed neural network
+    approach mapping situ data for surface ocean fugacity (SOCAT data base, Bakker et al.  2016, https://www.socat.info/) and
+    sea surface salinity, temperature, sea surface height, chlorophyll a, mixed layer depth and atmospheric CO2 mole fraction.
+    Sea-air flux fields are computed from the air-sea gradient of pCO2 and the dependence on wind speed of Wanninkhof (2014).
+    Surface ocean pH on total scale, dissolved inorganic carbon, and saturation states are then computed from surface ocean pCO2
+    and reconstructed surface ocean alkalinity using the CO2sys speciation software.\n\nProduct Citation: Please refer to our
+    Technical FAQ for citing products: http://marine.copernicus.eu/faq/cite-cmems-products-cmems-credit/?idpage=169.
+    \n\nDOI (product):\nhttps://doi.org/10.48670/moi-00047\n\nReferences:\n\n Chau, T. T. T., Gehlen, M., and
+    Chevallier, F.: A seamless ensemble-based reconstruction of surface ocean pCO2 and air-sea CO2 fluxes over the global
+    coastal and open oceans, Biogeosciences, 19, 1087-1109, https://doi.org/10.5194/bg-19-1087-2022, 2022.\n
   instruments: []
   constellation:
   platform:
   processing:level: L4
-  keywords: ["CMEMS", "Mercator", "ocean", "global", "surface", "carbon", "L4", "MYNRT"]
+  keywords: ["CMEMS", "Mercator", "ocean", "global", "surface", "carbon", "L4", "REP"]
   eodag:sensor_type:
   license: other
-  title: Surface ocean carbon fields
-  extent: {"spatial": {"bbox": [[-179.875, -89.875, 179.875, 89.875]]}, "temporal": {"interval": [["1985-01-01T00:00:00Z", "2026-09-01T00:00:00Z"]]}}
+  title: Global Ocean Surface Carbon
+  extent: {"spatial": {"bbox": [[-180.0, -90.0, 180.0, 90.0]]}, "temporal": {"interval": [["1985-01-01T00:00:00Z", "2023-12-01T00:00:00Z"]]}}
 
 MO_MULTIOBS_GLO_BGC_NUTRIENTS_CARBON_PROFILES_MYNRT_015_009:
   description: |
@@ -9341,7 +9346,7 @@ SPACENET_OFF_NADIR_BUILDING:
   eodag:sensor_type: OPTICAL
   license: CC-BY-4.0
   title: "SpaceNet 4: Off-Nadir Buildings"
-  extent: {"spatial": {"bbox": [[-84.4922899, 33.5924063, -84.3111812, 33.810971]]}, "temporal": {"interval": [["2016-02-29T00:00:00Z", null]]}}
+  extent: {"spatial": {"bbox": [[ 732701.0, 3720189.0, 748901.0, 3744039.0]]}, "temporal": {"interval": [["2016-02-29T00:00:00Z", null]]}}
 
 SPACENET_ROADS_NETWORK_ROUTE_TRAVEL:
   description: |
@@ -9354,7 +9359,7 @@ SPACENET_ROADS_NETWORK_ROUTE_TRAVEL:
   eodag:sensor_type: OPTICAL
   license: CC-BY-4.0
   title: "SpaceNet 5: Automated Road Network Extraction and Route Travel Time Estimation from Satellite Imagery"
-  extent: {"spatial": {"bbox": [[-43.7753747662, -23.0106794336, 72.89403328656945, 55.746917105720065]]}, "temporal": {"interval": [["2016-02-29T00:00:00Z", null]]}}
+  extent: {"spatial": {"bbox": [[-43.7753747662, -23.0106794336, 72.89403328656945, 55.746917105720065], [37.62123533463809, 55.60938704097397, 37.78303540799408, 55.746917105720065], [72.7844259905958, 18.885500500608433, 72.89403328656945, 19.0645257518164]]}, "temporal": {"interval": [["2016-02-29T00:00:00Z", null]]}}
 
 SPACENET_ALL_WEATHER_MAPPING:
   description: |
@@ -9367,7 +9372,7 @@ SPACENET_ALL_WEATHER_MAPPING:
   eodag:sensor_type: OPTICAL,RADAR
   license: CC-BY-4.0
   title: "SpaceNet 6: All-Weather Mapping"
-  extent: {"spatial": {"bbox": [[4.3083568, 51.8516506, 4.4061755, 51.9221892]]}, "temporal": {"interval": [["2019-08-04T00:00:00Z", "2019-08-23T00:00:00Z"]]}}
+  extent: {"spatial": {"bbox": [[590111.9563080214, 5745470.427302527, 596702.0547804891, 5753195.130788647]]}, "temporal": {"interval": [["2019-08-04T00:00:00Z", "2019-08-23T00:00:00Z"]]}}
 
 # Copernicus Global Human Settlement
 GHS_BUILT_S:
