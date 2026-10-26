@@ -17,7 +17,7 @@ EXTENSIONS = {
     "cf:": "https://stac-extensions.github.io/cf/v1.0.0/schema.json",
     "sar:": "https://stac-extensions.github.io/sar/v1.3.2/schema.json",
     "classification:": "https://stac-extensions.github.io/classification/v2.0.0/schema.json",
-    "data_state:": "https://autostacgis.github.io/stac-data-state/v1.0.0/schema.json",
+    "data_state:": "https://autostacgis.github.io/stac-data-state/v0.0.1/schema.json",
 }
 
 EXTENSIONS.update(
